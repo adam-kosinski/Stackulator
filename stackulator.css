@@ -1,15 +1,27 @@
 * {
 	-fx-font-family: "Comic Sans MS";
+	-fx-font-size: 24px;
 }
 
 #main {
-	-fx-background-color: "teal";
+	-fx-background-color: "cadetblue";
+}
+
+#top {
+	-fx-background-color: "beige";
 }
 
 .gridpane {
-	-fx-background-color: "yellow";
 	-fx-hgap: 3px;
 	-fx-vgap: 3px;
+}
+
+.button {
+	-fx-background-color: "lightslategray";
+	-fx-border-width: 2px;
+	-fx-border-color: black;
+	-fx-border-radius: 10px;
+	-fx-background-radius: 10px;
 }
 
 .function_button {

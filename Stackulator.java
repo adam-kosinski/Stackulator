@@ -34,6 +34,7 @@ public class Stackulator extends Application
 		
 		//stuff on the top
 		HBox top = new HBox();
+		top.setId("top");
 		bp.setTop(top);
 		top.getChildren().add(display);
 		
@@ -208,6 +209,7 @@ public class Stackulator extends Application
 			super(symbol);
 			
 			this.getStyleClass().addAll("button","number_button");
+			this.setMinWidth(50);
 			
 			this.symbol = symbol;
 			setOnAction( e ->
@@ -270,6 +272,7 @@ public class Stackulator extends Application
 			super(symbol);
 			
 			this.getStyleClass().addAll("button","function_button");
+			this.setMinWidth(100);
 			
 			this.function = function;
 			this.setOnAction( e -> 
