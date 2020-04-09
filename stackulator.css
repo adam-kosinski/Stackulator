@@ -1,0 +1,17 @@
+* {
+	-fx-font-family: "Comic Sans MS";
+}
+
+#main {
+	-fx-background-color: "teal";
+}
+
+.gridpane {
+	-fx-background-color: "yellow";
+	-fx-hgap: 3px;
+	-fx-vgap: 3px;
+}
+
+.function_button {
+	
+}
