@@ -5,25 +5,49 @@
 
 #main {
 	-fx-background-color: "cadetblue";
+	-fx-padding: 15px;
 }
 
 #top {
-	-fx-background-color: "beige";
+	-fx-background-color: linear-gradient(to bottom, #ddd, white);
+	-fx-text-alignment: right;
+	-fx-padding: 5px;
+	-fx-border-color: #263e40;
+	-fx-border-width: 6px 4px 0px 4px;
+}
+
+#stack_display {
+	-fx-font-size: 16px;
 }
 
 .gridpane {
-	-fx-hgap: 3px;
-	-fx-vgap: 3px;
+	-fx-hgap: 5px;
+	-fx-vgap: 5px;
+}
+
+.side {
+	-fx-padding: 15px 0px 0px 0px;
 }
 
 .button {
-	-fx-background-color: "lightslategray";
-	-fx-border-width: 2px;
-	-fx-border-color: black;
+	-fx-background-color: linear-gradient(to bottom, #444, black);
+	-fx-effect: dropshadow(gaussian, black, 4, 1, 4, 4);
+	-fx-text-fill: "lightgray";
 	-fx-border-radius: 10px;
 	-fx-background-radius: 10px;
 }
 
-.function_button {
-	
+#enter, #backspace {
+	-fx-font-size: 16px;
+	-fx-background-color: linear-gradient(to bottom, #888, #333);
 }
+
+.op_button {
+	-fx-background-color: linear-gradient(to bottom, #888, #333);
+}
+
+.clear_button {
+	-fx-background-color: linear-gradient(to bottom, #aaa, #666);
+}
+
+.function_button {}
